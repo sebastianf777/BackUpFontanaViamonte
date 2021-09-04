@@ -57,7 +57,7 @@ $(document).ready(function()
 						<table data-vertable='ver1'>
 						<div class="logoB">
 						<div class="divLogo">
-								<h2 class="h2Logo">VENTAS MOSTRADOR - FONTANA VIAMONTE </h2>
+								<h1 class="h1Logo">VENTAS MOSTRADOR - FONTANA VIAMONTE </h1>
 						</div>
 
 							<thead id="tabla">

@@ -1,33 +1,5 @@
-/*//////////////////////////////////////////////////////////////////
 
-[ FONT ]*/
-
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
-
-
-@font-face {
-
-  font-family: Montserrat-Regular;
-
-  src: url('../fonts/montserrat/Montserrat-Regular.ttf');
-
-}
-
-
-
-@font-face {
-
-  font-family: Montserrat-Medium;
-
-  src: url('../fonts/montserrat/Montserrat-Medium.ttf');
-
-}
-
-
-
-/*//////////////////////////////////////////////////////////////////
-
-[ RESTYLE TAG ]*/
+/* [ RESTYLE TAG ] */
 
 
 
@@ -195,7 +167,7 @@ button:hover {
 
 .logoB {
 
-  max-height: 40px;
+  height: 50px;
 
   display: flex;
 
@@ -217,12 +189,12 @@ button:hover {
 
 
 
-.h2Logo {
+.h1Logo {
 
-  font-size: 25px;
-
+  font-size: 30px;
+color: blue;
   width: 100%;
-
+padding: 7px;
   display: flex;
 
   justify-content: space-around;
@@ -523,7 +495,7 @@ th, td {
 
 .row100.head th {
 
-  padding-top: 10px;
+  padding-top: 5px;
 
   padding-bottom: 5px;
 
@@ -533,9 +505,9 @@ th, td {
 
 .row100 td {
 
-  padding-top: 18px;
+  padding-top: 5px;
 
-  padding-bottom: 14px;
+  padding-bottom: 5px;
 
 }
 
@@ -549,7 +521,7 @@ th, td {
 
 .table100.ver1 td {
 
-  font-family: Montserrat-Regular;
+
 
   font-size: 14px;
 
@@ -563,7 +535,6 @@ th, td {
 
 .table100.ver1 th {
 
-  font-family: Montserrat-Medium;
 
   font-size: 12px;
 
@@ -621,8 +592,6 @@ th, td {
 
 .table100.ver2 td {
 
-  font-family: Montserrat-Regular;
-
   font-size: 14px;
 
   color: #808080;
@@ -634,8 +603,6 @@ th, td {
 
 
 .table100.ver2 th {
-
-  font-family: Montserrat-Medium;
 
   font-size: 12px;
 
@@ -705,7 +672,7 @@ th, td {
 
 .table100.ver2 td {
 
-  font-family: Montserrat-Regular;
+
 
   font-size: 14px;
 
@@ -719,7 +686,7 @@ th, td {
 
 .table100.ver2 th {
 
-  font-family: Montserrat-Medium;
+
 
   font-size: 12px;
 
@@ -789,7 +756,6 @@ th, td {
 
 .table100.ver3 td {
 
-  font-family: Montserrat-Regular;
 
   font-size: 14px;
 
@@ -803,7 +769,6 @@ th, td {
 
 .table100.ver3 th {
 
-  font-family: Montserrat-Medium;
 
   font-size: 12px;
 
@@ -861,7 +826,6 @@ th, td {
 
 .table100.ver4 td {
 
-  font-family: Montserrat-Regular;
 
   font-size: 14px;
 
@@ -875,7 +839,6 @@ th, td {
 
 .table100.ver4 th {
 
-  font-family: Montserrat-Medium;
 
   font-size: 12px;
 
@@ -941,7 +904,7 @@ th, td {
 
 .table100.ver5 td {
 
-  font-family: Montserrat-Regular;
+
 
   font-size: 14px;
 
@@ -957,7 +920,7 @@ th, td {
 
 .table100.ver5 th {
 
-  font-family: Montserrat-Medium;
+ 
 
   font-size: 12px;
 
@@ -1093,7 +1056,7 @@ th, td {
 
 .table100.ver6 td {
 
-  font-family: Montserrat-Regular;
+
 
   font-size: 14px;
 
@@ -1107,7 +1070,6 @@ th, td {
 
 .table100.ver6 th {
 
-  font-family: Montserrat-Medium;
 
   font-size: 12px;
 
