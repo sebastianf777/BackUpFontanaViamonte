@@ -74,7 +74,7 @@
 	 <li class="liLeft">
 			  <form  target="_blank"  method="post"  action="ver_tabla_pruebas.php" style="height: 44px;">
 							<input id="TABLA" name="TABLA" type="hidden" value="productos">
-							<button style= " font-family: 'PT Serif', serif; margin: 0px; width: 110px; height:47px; color:white; border-right: grey solid .1px; " type="submit" onclick="javascript: form.action='ver_tabla_pruebas.php';">Ver Registros</button>
+							<button style= " font-family: 'PT Serif', serif; margin: 0px; width: 110px; height:47px; color:white; border-right: grey solid .1px; cursor: pointer; " type="submit" onclick="javascript: form.action='ver_tabla_pruebas.php';">Ver Registros</button>
 							</form>
 	  </li>
 </ul>
@@ -90,6 +90,7 @@
 
  		<div class="limiter">
 		<div class="container-table100">
+			<div class="logoI"></div>
 		<div class="wrap-table100"> 
  		<h1>CONTROL DE VENTAS FONTANA VIAMONTE</h1>
         <br>

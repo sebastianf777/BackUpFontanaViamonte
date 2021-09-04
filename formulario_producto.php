@@ -12,7 +12,7 @@
 <script type="text/javascript" src="total/js_calendar/calendar.js"></script>
 </head>
 
-<body id="main_body" >
+<body id="main_body" class="bodyR" >
 	
 <header>
 
@@ -23,7 +23,7 @@
 	  <li class="liLeft">
 			  <form  target="_blank"  method="post"  action="ver_tabla_pruebas.php" style="height: 44px;">
 							<input id="TABLA" name="TABLA" type="hidden" value="productos">
-							<button style= "font-family: 'PT Serif', serif; margin: 0px; width: 110px; height:47px; color:white; background:transparent; border-right: grey solid .1px;" type="submit" onclick="javascript: form.action='ver_tabla_pruebas.php';">Ver Registros</button>
+							<button style= "font-family: 'PT Serif', serif; margin: 0px; width: 110px; height:47px; color:white; background:transparent; border-right: grey solid .1px; cursor: pointer;" type="submit" onclick="javascript: form.action='ver_tabla_pruebas.php';">Ver Registros</button>
 							</form>
 	  </li>
 </ul>
