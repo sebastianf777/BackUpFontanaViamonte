@@ -37,7 +37,7 @@ $(document).ready(function()
 				<li class="liLeft active">
 					<form target="_self" method="post" action="ver_tabla_pruebas.php" style="height: 46px;">
 						<input id="TABLA" name="TABLA" type="hidden" value="productos">
-						<button id="btn" style=" margin: 0px; width: 200px; height:46px; color:white " type="submit" onclick="javascript: form.action='ver_tabla_pruebas.php';">Ver Registros</button>
+						<button id="btn" style="font-family: 'PT Serif', serif; margin: 0px; width: 110px; height:47px; color:white ; border-right: grey solid .1px;" type="submit" onclick="javascript: form.action='ver_tabla_pruebas.php';">Ver Registros</button>
 					</form>
 				</li>
 			</ul>

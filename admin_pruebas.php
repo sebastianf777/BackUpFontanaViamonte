@@ -17,9 +17,6 @@
 <!-- CSS ADMIN PRUEBAS -->
 
     <style>
-		body {
-		font-family: Arial;
-			 }
 
 		* {
   		box-sizing: border-box;
@@ -77,7 +74,7 @@
 	 <li class="liLeft">
 			  <form  target="_blank"  method="post"  action="ver_tabla_pruebas.php" style="height: 44px;">
 							<input id="TABLA" name="TABLA" type="hidden" value="productos">
-							<button style= " margin: 0px; width: 200px; height:44px; color:white " type="submit" onclick="javascript: form.action='ver_tabla_pruebas.php';">Ver Registros</button>
+							<button style= " font-family: 'PT Serif', serif; margin: 0px; width: 110px; height:47px; color:white; border-right: grey solid .1px; " type="submit" onclick="javascript: form.action='ver_tabla_pruebas.php';">Ver Registros</button>
 							</form>
 	  </li>
 </ul>

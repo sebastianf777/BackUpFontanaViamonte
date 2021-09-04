@@ -1,6 +1,6 @@
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
-
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 @font-face {
 	font-family: Montserrat-Regular;
 	src: url('../fonts/montserrat/Montserrat-Regular.ttf');
@@ -16,7 +16,7 @@ body
 	background-image: url("../images/fondo2.webp");
 	background-repeat: no-repeat;
 	background-size: cover;
-	font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+	font-family: 'PT Serif', serif;
 	margin: 0 ;
 	text-align:center;
 }
@@ -93,13 +93,17 @@ form.appnitro
 
 .liRight{
 
-width: 150px;
+width: 100px;
 background-image: url("../images/logom.png");
-background-size: 30%;
+background-size: 35%;
 background-repeat: no-repeat;
+background-position-y: center;
+background-position-x: 10%;
+float:right;
+}
 
-
-	float:right;
+.liLeft, .liRight{
+	height: 47px;
 }
 
 .nav li:last-child {
@@ -109,8 +113,8 @@ background-repeat: no-repeat;
 .nav li a {
 	display: block;
 	color: white;
-	text-align: center;
-	padding: 13px 16px;
+	text-align: end;
+	padding: 13px 8px;
 	text-decoration: none;
   }
 
