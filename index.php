@@ -67,7 +67,7 @@
 <header>
 
 <ul class="nav">
-<li class="liLeft active"><a href="admin_pruebas.php">Inicio</a></li>
+<li class="liLeft active"><a href="index.php">Inicio</a></li>
 	  <li class="liLeft"><a href="formulario_producto.php">Registrar Productos</a></li>
 	  <li class="liRight"><a href="#about">About</a></li>
 	  
